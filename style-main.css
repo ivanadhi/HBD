@@ -17,7 +17,7 @@
 html, body {
     position: relative;
     height: 100vh;
-    overflow: hidden;
+    overflow: auto;
   }
 body{
     width: 100%;
@@ -118,6 +118,12 @@ button:hover{
 
 /* Media Queries untuk layar kecil (mobile) */
 @media (max-width: 768px) {
+    html, body {
+        position: relative;
+        height: 100vh;
+        overflow: auto;
+      }
+    
     nav {
         padding: 1rem 2rem;
         flex-direction: flex;
@@ -171,6 +177,12 @@ button:hover{
 
 /* Media Queries untuk tablet */
 @media (min-width: 769px) and (max-width: 1024px) {
+    html, body {
+        position: relative;
+        height: 100vh;
+        overflow: auto;
+      }
+    
     nav {
         padding: 1.5rem 3rem;
     }
