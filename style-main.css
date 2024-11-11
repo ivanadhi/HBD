@@ -20,9 +20,6 @@ html, body {
     overflow: auto;
   }
 
-html, body ::-webkit-scrollbar{
-    display: none;
-}
 
 body{
     width: 100%;
@@ -128,9 +125,7 @@ button:hover{
         height: 100vh;
         overflow: auto;
       }
-    html, body ::-webkit-scrollbar{
-    display: none;
-    }
+  
     
     nav {
         padding: 1rem 2rem;
@@ -190,9 +185,7 @@ button:hover{
         height: 100vh;
         overflow: auto;
       }
-    html, body ::-webkit-scrollbar{
-    display: none;
-    }
+ 
     nav {
         padding: 1.5rem 3rem;
     }
