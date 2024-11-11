@@ -1,0 +1,63 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Full-height page layout */
+  html, body {
+    position: relative;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Landing section styling */
+  body{
+    background-image: url(pendukung/space.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+.landing-page-img{
+    display: none;
+  }
+
+
+.form-container{
+    color: white;
+    position: absolute;
+    top: 50%;    /* Posisikan elemen di tengah vertikal */
+    left: 50%;   /* Posisikan elemen di tengah horizontal */
+    transform: translate(-50%, -50%); /* Geser elemen untuk benar-benar di tengah */
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+    display : flex;
+    gap: 80px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.landing-title{
+    font-size: 60px;
+    color: #ff6347;
+
+}
+
+.submit{
+    color: black;
+    font-size: 20px;
+    border-radius: 5px;;
+    
+}
+
+.input{
+    display:block;
+    align-items: center;
+    font-size: 25px;
+    border-radius: 20px;
+
+}
+
